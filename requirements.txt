@@ -1,0 +1,26 @@
+--trusted-host pypi.bars-open.ru
+--extra-index-url http://pypi.bars-open.ru/simple
+
+django==2.2.2 ; python_full_version == "3.8.1" \
+    --hash=sha256:753d30d3eb078064d2ddadfea65083c9848074a7f93d7b4dc7fa6b1380d278f5 \
+    --hash=sha256:7cb67e8b934fab23b6daed7144da52e8a25a47eba7f360ca43d2b448506b01ad
+m3-builder==1.2.0 ; python_full_version == "3.8.1" \
+    --hash=sha256:beca368de1cc9689f95f9f3ca2262a76ecf2788cb9863f20e66df6be984c5a86
+m3-core==2.2.24 ; python_full_version == "3.8.1" \
+    --hash=sha256:168eea6cc5510a9d62e80e70608fb839a24b68947675b0401c5fdbc6b5a20f02
+m3-django-compat==1.9.2 ; python_full_version == "3.8.1" \
+    --hash=sha256:fcf0ceb0a51aa4ff986d5d481abd68f6d64870d002e50514e6a6b410573c48dc
+m3-objectpack==2.2.47 ; python_full_version == "3.8.1" \
+    --hash=sha256:a45a0f46ba84d80485fe9e6aa56b30f5cf88c367913464750accc50d039f7233
+m3-ui==2.2.106 ; python_full_version == "3.8.1" \
+    --hash=sha256:62c4221b35f17852da7a8f1160f5acf3ad8fb425b821801e6bd628fc4b36ff76 \
+    --hash=sha256:ba080e959be8d0fe0cc89bc77673d23fec2443b9b3ae9d7c3475fcc71d681d3b
+pytz==2023.3 ; python_full_version == "3.8.1" \
+    --hash=sha256:1d8ce29db189191fb55338ee6d0387d82ab59f3d00eac103412d64e0ebd0c588 \
+    --hash=sha256:a151b3abb88eda1d4e34a9814df37de2a80e301e68ba0fd856fb9b46bfbbbffb
+six==1.16.0 ; python_full_version == "3.8.1" \
+    --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 \
+    --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
+sqlparse==0.4.3 ; python_full_version == "3.8.1" \
+    --hash=sha256:0323c0ec29cd52bceabc1b4d9d579e311f3e4961b98d174201d5622a23b85e34 \
+    --hash=sha256:69ca804846bb114d2ec380e4360a8a340db83f0ccf3afceeb1404df028f57268

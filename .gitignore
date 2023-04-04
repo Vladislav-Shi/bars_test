@@ -1,0 +1,6 @@
+poetry.lock
+.venv
+.idea
+m3_project/db.sqlite3
+*.pyc
+*.egg-info

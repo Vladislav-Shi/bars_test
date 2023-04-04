@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "djangotest"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav-Shi <vlad.shirobockow@yandex.ru>"]
+readme = "README.md"
+packages = [
+    { include = "m3_project" }
+]
+
+
+[tool.poetry.dependencies]
+python = "3.8.1"
+django = "2.2.2"
+m3-django-compat = "1.9.2"
+m3-objectpack = "2.2.47"
+
+
+[[tool.poetry.source]]
+name = "pypi.bars-open.ru"
+url = "http://pypi.bars-open.ru/simple/"
+default = false
+secondary = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
